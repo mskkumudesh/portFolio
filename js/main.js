@@ -83,7 +83,7 @@
       const sections = document.querySelectorAll('section');
       const navLinks = document.querySelectorAll('#nav-menu a');
     
-      window.addEventListener('scroll', function() {
+      window.addEventListener('scroll'|'resize', function() {
         let current = '';
         
         sections.forEach(section => {
