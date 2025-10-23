@@ -79,11 +79,11 @@
         });
         
       //live anchor link animation
-     function activateMenuOnScroll() {
+     function activateMenuOnScroll(eventType) {
       const sections = document.querySelectorAll('section');
       const navLinks = document.querySelectorAll('#nav-menu a');
     
-      window.addEventListener('scroll'|'resize', function() {
+      window.addEventListener(eventType, function() {
         let current = '';
         
         sections.forEach(section => {
@@ -101,8 +101,9 @@
           });
          });
         }
-        window.addEventListener("resize", activateMenuOnScroll);
-        activateMenuOnScroll();
+        activateMenuOnScroll('scroll');
+        activateMenuOnScroll('resize')
+
 
     
       /* AOS.init({
