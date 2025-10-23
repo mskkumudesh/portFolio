@@ -101,6 +101,7 @@
           });
          });
         }
+        window.addEventListener("resize", activateMenuOnScroll);
         activateMenuOnScroll();
 
     
