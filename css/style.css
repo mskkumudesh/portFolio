@@ -807,8 +807,8 @@
         }
       }
       @media screen and (min-width: 768px) and (max-width: 991px) {
-         #nav-menu ul li a{
-          font-size: 16px;
+         #nav-menu ul li{
+         margin: 0 5px;
         }  
       } 
       @media screen and (max-width: 826px) {
