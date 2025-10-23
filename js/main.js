@@ -79,7 +79,7 @@
         });
         
       //live anchor link animation
-     function activateMenuOnScroll(eventType) {
+     function activeMenuAnimation(eventType) {
       const sections = document.querySelectorAll('section');
       const navLinks = document.querySelectorAll('#nav-menu a');
     
@@ -101,8 +101,8 @@
           });
          });
         }
-        activateMenuOnScroll('scroll');
-        activateMenuOnScroll('resize')
+        activeMenuAnimation('scroll');
+        activeMenuAnimation('resize');
 
 
     
