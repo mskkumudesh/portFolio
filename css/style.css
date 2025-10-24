@@ -804,7 +804,7 @@
         .hero-content{
           margin-bottom: 30px;
         }
-      
+     
       }
       @media screen and (min-width: 768px) and (max-width: 991px) {
          #nav-menu ul li{
@@ -828,6 +828,9 @@
 
       }
       @media screen and (max-width: 768px) {
+        .container{
+          padding: 0 30px;
+        }
         .hero-content h3 {
           margin-bottom: 0.5rem;
         }
@@ -916,6 +919,9 @@
         }
       }
       @media screen and (max-width: 576px){
+        .container{
+          padding: 0 20px;
+        }
          .about-details {
           display: block;
         }
@@ -924,6 +930,9 @@
         }
       }
       @media screen and (max-width: 425px) {
+        .container{
+          padding: 0 15px;
+        }
         .hero-section {
           padding-top: 80px;
         }
