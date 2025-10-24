@@ -802,17 +802,17 @@
          flex-direction: column;
         }
         .hero-content{
-          margin-bottom: 50px;
+          margin-bottom: 30px;
         }
-        .hero-image img{
-          width: 40%;
-        }
-
+      
       }
       @media screen and (min-width: 768px) and (max-width: 991px) {
          #nav-menu ul li{
          margin: 0 5px;
         }  
+         .hero-image img{
+          width: 50%;
+        }
       } 
       @media screen and (max-width: 826px) {
         /* .hero-content h1 {
@@ -834,6 +834,9 @@
 
         .hero-section {
           padding-top: 120px;
+        }
+        .hero-image img{
+          width: 60%;
         }
 
         .navbar {
@@ -916,13 +919,13 @@
          .about-details {
           display: block;
         }
+        .hero-image img{
+          width: 70%;
+        }
       }
       @media screen and (max-width: 425px) {
         .hero-section {
           padding-top: 80px;
-        }
-        .hero-image img {
-          width: 70%;
         }
         .hero-image {
           margin-top: 20px;
