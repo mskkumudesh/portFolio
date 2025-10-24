@@ -63,7 +63,7 @@
       animation();
 
        //smmoth scroll for anchor links
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      document.querySelectorAll('#nav-menu ul li a').forEach(anchor => {
        anchor.addEventListener('click', function(e) {
         e.preventDefault();
         
