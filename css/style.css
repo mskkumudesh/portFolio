@@ -418,9 +418,6 @@
       .project-content h3{
         font-size: 18px;
       }
-      .project-content p{
-        font-size: 14px;
-      }
       .tags{
         display: flex;
         flex-wrap: wrap;
