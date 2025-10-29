@@ -110,8 +110,9 @@
         duration: 1000,
         once: true,
       }); */
+/* _______________________________________________________________________________________________________________________ */
 
-     /*  function setupContactForm() {
+      function setupContactForm() {
     const contactForm = document.getElementById('contactForm');
     
     if (contactForm) {
@@ -249,7 +250,8 @@
         inputElement.classList.remove('input-error');
     }
 }
- */
+
+/* ________________________________________________________________________________________________________ */
 
 
 
