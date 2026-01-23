@@ -149,8 +149,10 @@
         opacity: 0;
       }
       .hero-image img {
-        width: 60%;
+        width: 65%;
         border-radius: 50%;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        border-color: #333;
       }
       .hero-image img:hover {
         border: 5px solid aqua;
